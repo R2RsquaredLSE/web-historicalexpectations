@@ -1,0 +1,7 @@
+title: Dataset on Measures of Disagreement over Expected Inflation
+description: Download the dataset and view figures using it
+baseurl: "/web-disagreement" 
+url: "https://R2RsquaredLSE.github.io"
+github_username: R2RsquaredLSE
+
+theme: jekyll-theme-cayman
