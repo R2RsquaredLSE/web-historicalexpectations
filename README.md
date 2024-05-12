@@ -7,24 +7,24 @@ The dataset will be updated regularly to reflect the latest data.
 
 ---
 
-# Authors and Referencse:
-[Losing the Inflation Anchor](https://personal.lse.ac.uk/reisr/papers/22-loseanchor.pdf) (2022). *Brookings Papers on Economic Activity* 307--361, Fall.
+# Authors and References:
+[Losing the Inflation Anchor](https://personal.lse.ac.uk/reisr/papers/22-loseanchor.pdf) (2022). *Brookings Papers on Economic Activity* 307-361, Fall.
 [bibtex](https://personal.lse.ac.uk/reisr/papers/22-loseanchor-bib.bib)
 - [Ricardo Reis](https://www.r2rsquared.com/)
 
-[Disagreement About Inflation Expectations](https://personal.lse.ac.uk/reisr/papers/04-disagree.pdf) (2004). *NBER Macroeconomics Annual* 18, 209--248.
-[bibtex](https://personal.lse.ac.uk/reisr/papers/24-FPRdisagree-bib.bib)
-- [N. Gregory Mankiw](https://www.salomefofana.com)
+[Disagreement About Inflation Expectations](https://personal.lse.ac.uk/reisr/papers/04-disagree.pdf) (2004). *NBER Macroeconomics Annual* 18, 209-248.
+[bibtex](https://personal.lse.ac.uk/reisr/papers/04-FPRdisagree-bib.bib)
+- [N. Gregory Mankiw](https://scholar.harvard.edu/mankiw/home)
 - [Ricardo Reis](https://www.r2rsquared.com/)
-- [Justin Wolfers](https://www.paulapatzelt.com)
+- [Justin Wolfers](https://fordschool.umich.edu/faculty/justin-wolfers)
 
 ---
 
 # Full Dataset
 Download in three formats:
-- [Excel](fpr_disagree_0524.xlsx) (with meta data)
-- [csv](fpr_disagree_0524.csv)
-- [dta](fpr_disagree_0524.dta)
+- [Excel](historicalexpectations_0524.xlsx) (with meta data)
+- [csv](historicalexpectations_0524.csv)
+- [dta](historicalexpectations_0524.dta)
 
 ---
 
@@ -95,21 +95,23 @@ The data is at the monthly frequency, and was built directly from the public acc
 # Figures
 
 ## Expected inflation by professionals
-![Description of the image](stdev_raw.png)
+![Description of the image](professionals.png)
 
-Data for replication: [Excel](stdev_raw.xls), [csv](stdev_raw.csv), [dta](stdev_raw.dta) 
+Data for replication: [Excel](professionals.xls), [csv](professionals.csv), [dta](professionals.dta) 
 
 ---
 
 ## Michigan qualitative (Mankiw-Reis-Wolfers) and quantitative (Reis) mean
-![Description of the image](skewness_raw.png)
+![Description of the image](expectedfinflation.png)
 
-Data for replication: [Excel](skewness_raw.xls), [csv](skewness_raw.csv), [dta](skewness_raw.dta) 
+Data for replication: [Excel](expectedinflation.xls), [csv](expectedinflation.csv), [dta](expectedinflation.dta) 
 
 ---
 
 ##  Michigan disagreement in quantitative (Reis) series
-![Description of the image](figure1.png)
+![Description of the image](disagreement.png)
+
+Data for replication: [Excel](disagreement.xls), [csv](disagreement.csv), [dta](disagreement.dta) 
 
 ---
 
