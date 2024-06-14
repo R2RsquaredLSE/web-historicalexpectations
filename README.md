@@ -9,7 +9,7 @@ Measures of expected inflation before the numerical answers to the Michigan surv
 [bibtex](https://personal.lse.ac.uk/reisr/papers/22-loseanchor-bib.bib)
 - [Ricardo Reis](https://www.r2rsquared.com/)
 
-[Disagreement About Inflation Expectations](https://personal.lse.ac.uk/reisr/papers/04-disagree.pdf) (2004). *NBER Macroeconomics Annual* 18, 209-248.
+[Disagreement About Inflation Expectations](https://personal.lse.ac.uk/reisr/papers/04-MankiwReisWolfers.pdf) (2004). *NBER Macroeconomics Annual* 18, 209-248.
 [bibtex](https://personal.lse.ac.uk/reisr/papers/04-FPRdisagree-bib.bib)
 - [N. Gregory Mankiw](https://scholar.harvard.edu/mankiw/home)
 - [Ricardo Reis](https://www.r2rsquared.com/)
