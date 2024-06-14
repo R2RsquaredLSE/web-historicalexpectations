@@ -47,7 +47,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>qual_up</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise</td>
   </tr>
-  <tr style="background-color: #d4f4d3;">
+  <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>qual_down</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to fall</td>
   </tr>
@@ -59,7 +59,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_mean</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Mankiw-Reis-Wolfers Michigan series of mean expected inflation</td>
   </tr>
-  <tr style="background-color: #f5f5f5;">
+  <tr style="background-color: #d4f4d3;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_sd</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Mankiw-Reis-Wolfers Michigan series of standard deviation of expected inflation</td>
   </tr>
@@ -67,7 +67,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_iqr</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Mankiw-Reis-Wolfers Michigan series of iqr of expected inflation</td>
   </tr>
-  <tr style="background-color: #f5f5f5;">
+  <tr style="background-color: #d4f4d3;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_mean</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of mean of expected inflation</td>
   </tr>
@@ -75,7 +75,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_sd</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of standard deviation of expected inflation</td>
   </tr>
-  <tr style="background-color: #f5f5f5;">
+  <tr style="background-color: #d4f4d3;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_skew</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of skewness of expected inflation</td>
   </tr>
@@ -95,7 +95,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>downorsame</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to fall or stay same</td>
   </tr>
-  <tr style="background-color: #d4f4d3;">
+  <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_1to2</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 1-2%</td>
   </tr>
@@ -103,7 +103,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_3to4</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 3-4%</td>
   </tr>
-  <tr style="background-color: #d4f4d3;">
+  <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_5</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 5%</td>
   </tr>
@@ -111,7 +111,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_6to9</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 6-9%</td>
   </tr>
-  <tr style="background-color: #d4f4d3;">
+  <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_10to14</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 10-14%</td>
   </tr>
@@ -119,11 +119,11 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>dontknowup</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage who don't know how much prices will rise</td>
   </tr>
-  <tr style="background-color: #d4f4d3;">
+  <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>dontknow</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Percentage who don't know if prices will fall</td>
   </tr>
-  <tr style="background-color: #f5f5f5;">
+  <tr style="background-color: #d4f4d3;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_mean</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of mean of expected inflation</td>
   </tr>
@@ -131,7 +131,7 @@ The data is at the quarterly frequency.
     <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_sd</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of standard deviation of expected inflation</td>
   </tr>
-  <tr style="background-color: #f5f5f5;">
+  <tr style="background-color: #fd4f4d3;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_skew</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of skewness of expected inflation</td>
   </tr>
