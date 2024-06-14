@@ -1,9 +1,6 @@
 .
 # Summary
-Measures of expected inflation before the numerical answers to the Michigan survey of consumers were available. This dataset was collated from public sources, so it can be **freely used** by other researchers.
-
-The dataset will be updated regularly to reflect the latest data.
-- **Vintage 1:** The dataset was last updated in May of 2014
+Measures of expected inflation before the numerical answers to the Michigan survey of consumers were available. This dataset was collated from public sources, so it can be **freely used** by other researchers. The dataset was posted in June of 2024, and will not be updated.
 
 ---
 
@@ -21,16 +18,22 @@ The dataset will be updated regularly to reflect the latest data.
 ---
 
 # Full Dataset
-Download in three formats:
-- [Excel](historicalexpectations_0524.xlsx) (with meta data)
-- [csv](historicalexpectations_0524.csv)
-- [dta](historicalexpectations_0524.dta)
+Quantitative measures 1966q2 - 1976q4
+- [Excel](MSCquant.xlsx) (with meta data)
+- [csv](MSCquant.csv)
+- [dta](MSCquant.dta)
+
+Qualitative measures 1948q1 - 1977q4
+- [Excel](MSCqual.xlsx) (with meta data)
+- [csv](MSCqual.csv)
+- [dta](MSCqual.dta)
 
 ---
 
 # Variables
-The data is at the monthly frequency, and was built directly from the public accces micro data files of answers.
+The data is at the quarterly frequency.
 
+**Quantitative data**
 <table>
   <tr style="background-color: #d4f4d3;">
     <th style="border: 2px solid #68b684; padding: 8px;">Column</th>
@@ -38,19 +41,27 @@ The data is at the monthly frequency, and was built directly from the public acc
   </tr>
   <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>date</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Month / year</td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Year / quarter</td>
   </tr>
   <tr style="background-color: #d4f4d3;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>mich_up/code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Percentage answering prices will rise</td>
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>qual_up</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise</td>
   </tr>
   <tr style="background-color: #d4f4d3;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>mich_down/code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Percentage answering prices will fall</td>
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>qual_down</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to fall</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>qual_same</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting no price change</td>
   </tr>
   <tr style="background-color: #f5f5f5;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_median</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Mankiw-Reis-Wolfers Michigan series of median expected inflation</td>
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_mean</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Mankiw-Reis-Wolfers Michigan series of mean expected inflation</td>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_sd</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Mankiw-Reis-Wolfers Michigan series of standard deviation of expected inflation</td>
   </tr>
   <tr style="background-color: #f5f5f5;">
     <td style="border: 2px solid #68b684; padding: 8px;"><code>mrw_iqr</code></td>
@@ -61,32 +72,68 @@ The data is at the monthly frequency, and was built directly from the public acc
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of mean of expected inflation</td>
   </tr>
   <tr style="background-color: #f5f5f5;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_mean</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_sd</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of standard deviation of expected inflation</td>
   </tr>
   <tr style="background-color: #f5f5f5;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_mean</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_skew</code></td>
     <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of skewness of expected inflation</td>
   </tr>
+</table>
+
+**Quanlitative data**
+<table>
   <tr style="background-color: #d4f4d3;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>liv_median</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Livingston median expected inflation</td>
-  </tr>
-  <tr style="background-color: #d4f4d3;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>liv_iqr</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Livingston interquartile range</td>
-  </tr>
-  <tr style="background-color: #d4f4d3;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>spf_median</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Survey of Professional Forecasters median expected inflation</td>
-  </tr>
-  <tr style="background-color: #d4f4d3;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>spf_iqr</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Survey of Professional Forecasters interquartile range</td>
+    <th style="border: 2px solid #68b684; padding: 8px;">Column</th>
+    <th style="border: 2px solid #68b684; padding: 8px;">Description</th>
   </tr>
   <tr style="background-color: #f5f5f5;">
-    <td style="border: 2px solid #68b684; padding: 8px;"><code>greenbook</code></td>
-    <td style="border: 2px solid #68b684; padding: 8px;">Greenbook inflation forecast</td>
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>date</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Year / quarter</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>downorsame</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to fall or stay same</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_1to2</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 1-2%</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_3to4</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 3-4%</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_5</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 5%</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_6to9</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 6-9%</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>inf_10to14</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage expecting prices to rise by 10-14%</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>dontknowup</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage who don't know how much prices will rise</td>
+  </tr>
+  <tr style="background-color: #d4f4d3;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>dontknow</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Percentage who don't know if prices will fall</td>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_mean</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of mean of expected inflation</td>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_sd</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of standard deviation of expected inflation</td>
+  </tr>
+  <tr style="background-color: #f5f5f5;">
+    <td style="border: 2px solid #68b684; padding: 8px;"><code>reis_skew</code></td>
+    <td style="border: 2px solid #68b684; padding: 8px;">Reis Michigan series of skewness of expected inflation</td>
   </tr>
 </table>
 
@@ -94,24 +141,24 @@ The data is at the monthly frequency, and was built directly from the public acc
 
 # Figures
 
-## Expected inflation by professionals
-![Description of the image](professionals.png)
+## Qualitative and quantitative mean expected inflation by households
+![Description of the image](mrw_mean.png)
 
-Data for replication: [Excel](professionals.xls), [csv](professionals.csv), [dta](professionals.dta) 
-
----
-
-## Michigan qualitative (Mankiw-Reis-Wolfers) and quantitative (Reis) mean
-![Description of the image](expectedfinflation.png)
-
-Data for replication: [Excel](expectedinflation.xls), [csv](expectedinflation.csv), [dta](expectedinflation.dta) 
+Data for replication: [Excel](mrw_mean.xls), [csv](mrw_mean.csv), [dta](mrw_mean.dta) 
 
 ---
 
-##  Michigan disagreement in quantitative (Reis) series
-![Description of the image](disagreement.png)
+## Qualitative and quantitative disagreement about expected inflation by households
+![Description of the image](mrw_sd.png)
 
-Data for replication: [Excel](disagreement.xls), [csv](disagreement.csv), [dta](disagreement.dta) 
+Data for replication: [Excel](mrw_sd.xls), [csv](mrw_sd.csv), [dta](mrw_sd.dta) 
+
+---
+
+## Quantitative disagreement about expected inflation by households
+![Description of the image](reis_skew.png)
+
+Data for replication: [Excel](reis_skew.xls), [csv](reis_skew.csv), [dta](reis_skew.dta) 
 
 ---
 
