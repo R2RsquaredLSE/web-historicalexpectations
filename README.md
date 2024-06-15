@@ -17,7 +17,7 @@ Measures of expected inflation before the numerical answers to the Michigan surv
 
 ---
 
-# Full Dataset
+# Full Datasets
 Quantitative measures 1966q2 - 1976q4
 - [Excel](MSCquant.xlsx) (with meta data)
 - [csv](MSCquant.csv)
@@ -81,7 +81,7 @@ The data is at the quarterly frequency.
   </tr>
 </table>
 
-**Quanlitative data**
+**Qualitative data**
 <table>
   <tr style="background-color: #d4f4d3;">
     <th style="border: 2px solid #68b684; padding: 8px;">Column</th>
