@@ -1,6 +1,6 @@
 .
 # Summary
-Measures of expected inflation before the numerical answers to the Michigan survey of consumers were available. This dataset was collated from public sources, so it can be **freely used** by other researchers. The dataset was posted in June of 2024, and will not be updated.
+The Michigan survey of consumers' numerical series for expected inflation series starting in 1978 is intensively used and easily accessible from [FRED](https://fred.stlouisfed.org/series/MICH). Less appreciated is that the same survey asked about expected inflation for much longer: qualitatively (up/down/same) since 1948 and in bins since 1966. This page makes these data available, as well as simple quantitative measures derived fomr them. The data was  collated from public sources, so it can be **freely used** by other researchers. The dataset was posted in August of 2024, and will not be updated.
 
 ---
 
